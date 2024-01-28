@@ -64,15 +64,12 @@ Certifique-se de ter os seguintes pré-requisitos instalados antes de prosseguir
 Clone este repositório:
 
 ```
----
 git clone git@github.com:jottakayo/AWS-IaC-Scaler.git
-
 
 
 Inicialize o Terraform para configurar o ambiente:
 
 ```
----
 terraform init
 
 Abra o arquivo variables.tf e ajuste os valores padrão das variáveis conforme necessário.
