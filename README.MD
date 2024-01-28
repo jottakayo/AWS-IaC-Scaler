@@ -65,7 +65,9 @@ Clone este repositório:
 
 ```
 ---
-git clone meureeeeeeppoooo....
+git clone git@github.com:jottakayo/AWS-IaC-Scaler.git
+
+
 
 Inicialize o Terraform para configurar o ambiente:
 
