@@ -4,7 +4,7 @@
 
 ## 🚀 Descrição do Projeto
 
-Este repositório contém a infraestrutura como código (IaC) para implantar e gerenciar uma aplicação na AWS. O projeto utiliza Terraform para provisionar recursos na nuvem, Ansible para automação de configuração, e recursos da AWS para criar um ambiente escalável e balanceado.
+Este repositório contém a infraestrutura como código (IaC) para implantar e gerenciar uma aplicação na AWS. O projeto utiliza Terraform para provisionar recursos na nuvem, Ansible para automação de configuração e recursos da AWS para criar um ambiente escalável e balanceado.
 
 Consulte **[Terraform](https://developer.hashicorp.com/terraform?product_intent=terraform)** **[Ansible](hhttps://www.ansible.com)** para saber como implantar o projeto.
 
@@ -41,7 +41,7 @@ Define a infraestrutura básica, incluindo Launch Template, Auto Scaling Group, 
 Dev/main.tf
 ```
 
-Configurações específicas para o ambiente de desenvolvimento, permitindo uma flexibilidade maior durante o desenvolvimento.
+Configurações específicas para o ambiente de desenvolvimento permitindo uma flexibilidade maior durante o desenvolvimento.
 ```
 Ansible/setup.yml
 ```
@@ -73,4 +73,4 @@ terraform init
 Abra o arquivo variables.tf e ajuste os valores padrão das variáveis conforme necessário.
 
 
-### ⌨️ Contribuições são bem-vindas! Se encontrar problemas ou tiver sugestões de melhoria, abra uma issue ou envie um pull request.
+### ⌨️ Contribuições são bem-vindas! Se encontrar problemas ou tiver sugestões de melhoria abra uma issue ou envie um pull request.
