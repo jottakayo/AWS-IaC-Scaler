@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>JS Game</title>
+</head>
+<body>
+        <dialog>
+            <H3>Recomendado jogar na tela de um computador.</H3>
+            <p>(Caso não tenha, jogue em tela cheia no celular.)</p>
+            <button id="button_recommendation_close" onclick="button_recommendation_close()">OK</button>
+        </dialog>
+    <button id="recommendation" onclick="button_recommendation()">Aviso</button>
+    <div class="container">
+        <div class="container__content">
+            <img src="./img/robot.png" alt="robô mergulhador" class="container__img-robo" />
+            <div class="container__information">
+                <img src="./img/trophy.png" class="container__img-trophy" alt="ícone de um troféu" />
+                 <div class="container__text">
+                    <h1></h1>
+                    <h2 id="result"></h2>
+                    <br>
+                    <input placeholder="Descubra o numero entre 1 e 10" class="container__input">
+                <div class="chute container__buttons">
+                    <button onclick="checkKick()" id="kick_button" class="container__button">Chutar Nº</button>
+                    <button onclick="reloadGame()" id="new_game_button" class="container__button" disabled>Novo jogo</button>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="app.js" defer></script>
+</body>
+
+</html>

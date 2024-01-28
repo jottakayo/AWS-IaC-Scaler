@@ -1,0 +1,176 @@
+/* Reset de Estilos: Define regras iniciais para todos os elementos */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+/* Estilo do Corpo da Página */
+body {
+    background: linear-gradient(#01f964 0%, #016716 33.33%, #014314 66.67%, #00270e 100%);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* Adiciona uma imagem de fundo à página */
+body::before {
+    background-image: url("img/code.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    content: "";
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0.4;
+}
+dialog {
+    margin: 0 auto;
+    width: 50%;
+    height: 12%;
+    border-radius: 25px;
+    box-shadow: 0 0 10rem rgba(0, 0, 0, 1);
+}
+dialog h3,p{
+    color: #000;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    padding: 5px;
+}
+#button_recommendation_close{
+    display: flex;
+    margin: 0 auto;
+    width: 2rem;
+    height: 2rem;
+    color: #ffffff;
+    border-radius: 50%;
+    font-size: 0.8rem;
+    cursor: pointer;
+    align-items: center;
+    background-color: #000;
+    padding: 5px;
+    
+}
+#button_recommendation_close:hover {
+    background-color: grey;
+}
+
+/* Estilo do Contêiner Principal */
+.container {
+    width: 1200px;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 24px;
+    border: 10px double #00ff55;
+    box-shadow: 4px 4px 20px 0px rgba(1, 8, 14, 0.15);
+    background-size: 100% 100%;
+    position: relative;
+}
+#recommendation {
+    position: absolute;
+    top: 0;
+    right:0;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    background-color: #000;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+#recommendation:hover {
+    background-color: grey;
+}
+/* Estilo do Conteúdo Dentro do Contêiner */
+.container__content {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+}
+/*Estilização do botão*/
+.container__button {
+    border-radius: 16px;
+    background: #1fbcf1;
+    padding: 16px 24px;
+    width: 100%;
+    font-size: 24px;
+    font-weight: 700;
+    border: none;
+    margin-top: 2rem;
+    cursor: pointer;
+}
+/*Estilização do input*/
+.container__input  {
+    width: 100%;
+    height: 72px;
+    border-radius: 16px;
+    background-color: #FFF;
+    border: none;
+    color: #1fbcf1;
+    padding: 2rem;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+    
+}
+.container__button:active{
+    transition-duration: 0s;
+    background-color: #00759c;
+
+}
+/*Dimensionamento*/
+.container__buttons {
+    display: flex;
+    gap: 2em;
+}
+/*Estiliza o atributo do button*/
+button:disabled {
+    background-color: gray;
+}
+/* Dimensionando a imagem */
+.container__img-robo {
+    width: 50%;
+    height: auto; 
+}
+/* Dimensionando a imagem */
+.container__img-trophy {
+    width: 25%;
+    height: auto; 
+}
+/* Estilo das Informações Dentro do Contêiner */
+.container__information {
+    flex: 1;
+    padding: 20px;
+}
+/* Estilo do Texto Dentro do Contêiner */
+.container__text {
+    margin: 16px 0 16px 0;
+}
+/* Estilo do Texto Azul */
+.container__text-blue {
+    color: #1fbcf1;
+}
+/* Estilo dos Títulos */
+h1 {
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 72px;
+}
+/* Estilo dos Títulos, Parágrafos e Botões */
+h2,
+p,
+button {
+    font-family: 'Inter', sans-serif;
+}
+/* Estilo dos Subtítulos */
+h2 {
+    font-size: 32px;
+    font-weight: 400;
+}
+
