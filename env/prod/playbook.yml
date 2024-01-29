@@ -40,4 +40,3 @@
     - name: Renomeia os conteudos para ser identificados pelo apache
       become: yes
       command: mv /var/www/html/mundo-invertido /var/www/html/index.html
-

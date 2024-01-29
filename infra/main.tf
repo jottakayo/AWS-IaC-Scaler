@@ -40,7 +40,6 @@ resource "aws_autoscaling_group" "grupo"{
     id      = aws_launch_template.machine_code_iac.id
     version = "$Latest"
   }
-  
 }
 # Cria uma subnet padrão em uma zona de disponibilidade
 resource "aws_default_subnet" "subnet_1" {

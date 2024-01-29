@@ -43,7 +43,8 @@ Dev/main.tf
 
 Configurações específicas para o ambiente de desenvolvimento permitindo uma flexibilidade maior durante o desenvolvimento.
 ```
-Ansible/setup.yml
+playbook.yml
+Ansible.sh
 ```
 
 Playbook Ansible para configurar automaticamente uma instância EC2 para produção.
