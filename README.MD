@@ -71,7 +71,7 @@ Inicialize o Terraform para configurar o ambiente:
 ```
 terraform init
 ```
-Abra o arquivo variables.tf e ajuste os valores padrão das variáveis conforme necessário.
+Abra o arquivo variables.tf e ajuste os valores padrão das variáveis conforme necessário. Para obter mais informações sobre os comandos e recursos disponíveis no Terraform, consulte a [documentação oficial do Terraform CLI](https://developer.hashicorp.com/terraform/cli/commands).
 
 
 ### ⌨️ Contribuições são bem-vindas! Se encontrar problemas ou tiver sugestões de melhoria abra uma issue ou envie um pull request.
