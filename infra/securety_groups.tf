@@ -19,3 +19,16 @@ resource "aws_security_group" "conexao" {
         name = "conexao"
     }
 }
+# Configuração de regras de entrada apenas do Load Balancer
+resource "aws_security_group" "loadBalancer" {
+  name = "loadBalancerSecurityGroup"
+  ingress {
+    from_port   = 80
+    to_port     = 80
+    protocol    = "tcp"
+    security_groups = [aws_security_group.conexao.id]
+  }
+  tags = {
+    name = "loadBalancer"
+  }
+}
